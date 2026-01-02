@@ -1,5 +1,11 @@
 # AskUserQuestionTool
-AskUserQuestionTool 是 Claude Code 的一個工具，讓 AI 訪談我，在 AI 提問與我的回答過程中，建立規格說明(spec)。  
+AskUserQuestionTool 是 Claude Code（Anthropic 推出的命令列 AI 開發工具）中的一個互動工具。
+
+簡單來說，它是 Claude 的**「發問麥克風」**。
+
+1. 核心功能
+當 Claude 在執行任務（例如寫代碼、重構或除錯）遇到不確定的情況時，它會調用這個工具來暫停自動化流程，並直接向你提問。
+這個專案就是利用 AskUserQuestionTool 的機制，讓 AI 訪談我，在 AI 提問與我的回答過程中，建立規格說明(spec)。  
 
 ---
 
